@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/food2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(123, 118, 118, 0.221);
+    height: 100vh;
+    width: 12%;
+}
+#cont{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: 550;
+}
+a:hover{
+    background-color: rgba(255, 228, 196, 0.388);
+}
+#menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+#menu2{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#drop2{
+    position: relative;
+}
+#drop2:hover #menu2{
+    display: block;
+}
+#menu3{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#drop3{
+    position: relative;
+}
+#drop3:hover #menu3{
+    display: block;
+}
+#vegbreakfastmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#vegbreakfast{
+    position: relative;
+}
+#vegbreakfast:hover #vegbreakfastmenu{
+    display: block;
+}
+#nonvegbreakfastmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#nonvegbreakfast{
+    position: relative;
+}
+#nonvegbreakfast:hover #nonvegbreakfastmenu{
+    display: block;
+}
+#veglunchmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#veglunch{
+    position: relative;
+}
+#veglunch:hover #veglunchmenu{
+    display: block;
+}
+#nonveglunchmenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#nonveglunch{
+    position: relative;
+}
+#nonveglunch:hover #nonveglunchmenu{
+    display: block;
+}
+#vegdinnermenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#vegdinner{
+    position: relative;
+}
+#vegdinner:hover #vegdinnermenu{
+    display: block;
+}
+#nonvegdinnermenu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(111, 161, 165, 0.315);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+#nonvegdinner{
+    position: relative;
+}
+#nonvegdinner:hover #nonvegdinnermenu{
+    display: block;
+}
